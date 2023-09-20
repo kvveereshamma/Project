@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MarketPlace]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="market(failed)" verbose="0">
+    <classes>
+      <class name="market.MyRunner">
+        <methods>
+          <include name="startTest"/>
+          <include name="login"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- market.MyRunner -->
+    </classes>
+  </test> <!-- market(failed) -->
+</suite> <!-- Failed suite [MarketPlace] -->
